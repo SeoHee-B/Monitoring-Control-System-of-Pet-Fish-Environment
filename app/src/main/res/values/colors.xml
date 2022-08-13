@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2F3F7</color>
+    <color name="colorPrimaryDark">#F2F3F7</color>
+    <color name="colorAccent">#7DA0CC</color>
+    <color name="solid_light_color">#FFFFFFFF</color>
+    <color name="solid_dark_color1">#1A3754AA</color>
+    <color name="solid_dark_color2">#3754AA70</color>
+    <color name="solid_dark_color3">#3754AA1A</color>
+    <color name="background_color">#F2F3F7</color>
+    <color name="stroke_color">#FFFFFFFF</color>
+    <dimen name="stroke_width1">1dp</dimen>
+    <dimen name="stroke_width2">3dp</dimen>
+    <dimen name="radius">11dp</dimen>
+
+    <style name="custom_shape_apperance">
+        <item name="neumorph_cornerFamily">oval</item>
+    </style>
+
+
+    <style name="top_button">
+        <item name="neumorph_backgroundColor">@color/background_color</item>
+        <item name="neumorph_shapeType">basin</item>
+        <item name="neumorph_shapeAppearance">@style/custom_shape_apperance</item>
+        <item name="neumorph_inset">12dp</item>
+        <item name="neumorph_insetBottom">12dp</item>
+        <item name="neumorph_insetEnd">12dp</item>
+        <item name="neumorph_insetStart">12dp</item>
+        <item name="neumorph_insetTop">12dp</item>
+        <item name="neumorph_lightSource">leftTop</item>
+        <item name="neumorph_shadowColorDark">@color/solid_dark_color1</item>
+        <item name="neumorph_shadowColorLight">@color/solid_light_color</item>
+        <item name="neumorph_shadowElevation">6dp</item>
+        <item name="neumorph_strokeColor">@color/stroke_color</item>
+        <item name="neumorph_strokeWidth">@dimen/stroke_width1</item>
+    </style>
+
+
+
+
+    <style name="test_gone">
+        <item name="neumorph_backgroundColor">@color/background_color</item>
+        <item name="neumorph_shapeType">flat</item>
+        <item name="neumorph_shapeAppearance">@style/custom_shape_apperance</item>
+        <item name="neumorph_inset">12dp</item>
+        <item name="neumorph_insetBottom">12dp</item>
+        <item name="neumorph_insetEnd">12dp</item>
+        <item name="neumorph_insetStart">12dp</item>
+        <item name="neumorph_insetTop">12dp</item>
+        <item name="neumorph_lightSource">leftTop</item>
+        <item name="neumorph_shadowColorDark">@color/solid_dark_color1</item>
+        <item name="neumorph_shadowColorLight">@color/solid_light_color</item>
+        <item name="neumorph_shadowElevation">7.5dp</item>
+        <item name="neumorph_strokeColor">@color/stroke_color</item>
+        <item name="neumorph_strokeWidth">@dimen/stroke_width1</item>
+    </style>
+
+    <style name="test_pressed">
+        <item name="neumorph_backgroundColor">@color/background_color</item>
+        <item name="neumorph_shapeType">pressed</item>
+        <item name="neumorph_shapeAppearance">@style/custom_shape_apperance</item>
+        <item name="neumorph_inset">12dp</item>
+        <item name="neumorph_insetBottom">12dp</item>
+        <item name="neumorph_insetEnd">12dp</item>
+        <item name="neumorph_insetStart">12dp</item>
+        <item name="neumorph_insetTop">12dp</item>
+        <item name="neumorph_lightSource">leftTop</item>
+        <item name="neumorph_shadowColorDark">@color/solid_dark_color1</item>
+        <item name="neumorph_shadowColorLight">@color/solid_light_color</item>
+        <item name="neumorph_shadowElevation">9dp</item>
+        <item name="neumorph_strokeColor">@color/stroke_color</item>
+        <item name="neumorph_strokeWidth">@dimen/stroke_width1</item>
+    </style>
+
+    <style name="seekbar">
+        <item name="neumorph_backgroundColor">@color/background_color</item>
+        <item name="neumorph_shapeType">basin</item>
+        <item name="neumorph_inset">9dp</item>
+        <item name="neumorph_insetBottom">9dp</item>
+        <item name="neumorph_insetEnd">9dp</item>
+        <item name="neumorph_insetStart">9dp</item>
+        <item name="neumorph_insetTop">9dp</item>
+        <item name="neumorph_lightSource">rightTop</item>
+        <item name="neumorph_shadowColorDark">@color/solid_dark_color1</item>
+        <item name="neumorph_shadowColorLight">@color/solid_light_color</item>
+        <item name="neumorph_shadowElevation">3dp</item>
+        <item name="neumorph_strokeColor">@color/stroke_color</item>
+        <item name="neumorph_strokeWidth">@dimen/stroke_width2</item>
+    </style>
+
+    <color name="progress_bar">#7481A3</color>
+
+</resources>

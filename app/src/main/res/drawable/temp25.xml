@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/temp_25"
+        android:width="205.5px"
+        android:height="861px"
+        />
+
+</layer-list>

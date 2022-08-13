@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/phtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="69dp"
+        android:hint="111"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#666669"
+        android:textFontWeight="400"
+        android:textSize="60px"
+        app:layout_constraintEnd_toStartOf="@+id/temptxt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9.5dp"
+        android:text="pH"
+        android:textAlignment="center"
+        android:textColor="#666669"
+        android:textFontWeight="400"
+        android:textSize="42px"
+        app:layout_constraintStart_toStartOf="@id/phtxt"
+        app:layout_constraintTop_toBottomOf="@id/phtxt" />
+
+    <TextView
+        android:id="@+id/temptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:hint="111"
+        android:text="13"
+        android:textAlignment="center"
+        android:textColor="#666669"
+        android:textFontWeight="400"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\u2103"
+        android:textAlignment="center"
+        android:textColor="#666669"
+        android:textFontWeight="400"
+        android:textSize="42px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temptxt" />
+
+    <TextView
+        android:id="@+id/tdstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="124dp"
+        android:hint="111"
+        android:text="111"
+        android:textAlignment="center"
+        android:textColor="#666669"
+        android:textFontWeight="400"
+        android:textSize="60px"
+        app:layout_constraintStart_toEndOf="@id/temptxt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TDS"
+        android:textAlignment="center"
+        android:textColor="#666669"
+        android:textFontWeight="400"
+        android:textSize="42px"
+        app:layout_constraintStart_toStartOf="@id/tdstxt"
+        app:layout_constraintTop_toBottomOf="@id/tdstxt" />
+
+
+
+    <TextView
+        android:id="@+id/num28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="28"
+        android:textColor="#BABABA"
+        android:textSize="32px"
+        />
+
+    <TextView
+        android:id="@+id/num27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="338.5dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="27"
+        android:textColor="#BABABA"
+        android:textSize="32px"
+        />
+
+    <TextView
+        android:id="@+id/num26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="377.5dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="26"
+        android:textColor="#BABABA"
+        android:textSize="32px"
+        />
+
+    <TextView
+        android:id="@+id/num25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="25"
+        android:textColor="#BABABA"
+        android:textSize="32px"
+        />
+
+    <ImageView
+        android:id="@+id/temp28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="123dp"
+        android:src="@drawable/temp28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/temp27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="123dp"
+        android:src="@drawable/temp27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/temp26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="123dp"
+        android:src="@drawable/temp26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/temp25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="123dp"
+        android:src="@drawable/temp25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bluebar28"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="60dp"
+        android:src="@drawable/bluebar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/graybar28"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="60dp"
+        android:src="@drawable/gray_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/bluebar27"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd= "60dp"
+        android:src="@drawable/bluebar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/graybar27"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd= "60dp"
+        android:src="@drawable/gray_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bluebar26"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd= "60dp"
+        android:src="@drawable/bluebar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/graybar26"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd= "60dp"
+        android:src="@drawable/gray_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bluebar25"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd= "60dp"
+        android:src="@drawable/bluebar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/graybar25"
+        android:layout_width="43px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd= "60dp"
+        android:src="@drawable/gray_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <soup.neumorphism.NeumorphImageButton
+        style="@style/top_button"
+        android:id="@+id/b"
+        android:layout_width="195px"
+        android:layout_height="195px"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="22dp"
+        android:scaleType="center"
+        android:src="@drawable/setting_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <soup.neumorphism.NeumorphImageButton
+        style="@style/top_button"
+        android:id="@+id/a"
+        android:layout_width="195px"
+        android:layout_height="195px"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="center"
+        android:src="@drawable/static_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+
+    <soup.neumorphism.NeumorphImageButton
+        style="@style/test_pressed"
+        android:id="@+id/btn_flows_visible"
+        android:layout_width="310px"
+        android:layout_height="310px"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="128dp"
+        android:scaleType="center"
+        android:src="@drawable/flow_icon"
+        app:layout_constraintBottom_toTopOf="@id/btn_leds_visible"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <soup.neumorphism.NeumorphImageButton
+        style="@style/test_gone"
+        android:id="@+id/btn_flows_gone"
+        android:layout_width="310px"
+        android:layout_height="310px"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="128dp"
+        android:scaleType="center"
+        android:src="@drawable/flow_icon_gone"
+        app:layout_constraintBottom_toTopOf="@id/btn_leds_gone"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <soup.neumorphism.NeumorphImageButton
+        style="@style/test_pressed"
+        android:id="@+id/btn_leds_visible"
+        android:layout_width="310px"
+        android:layout_height="310px"
+        android:layout_marginStart="30.3dp"
+        android:layout_marginBottom="58dp"
+        android:scaleType="center"
+        android:src="@drawable/light_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <soup.neumorphism.NeumorphImageButton
+        style="@style/test_gone"
+        android:id="@+id/btn_leds_gone"
+        android:layout_width="310px"
+        android:layout_height="310px"
+        android:layout_marginStart="30.3dp"
+        android:layout_marginBottom="58dp"
+        android:scaleType="center"
+        android:src="@drawable/light_icon_gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        style="@style/seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80px"
+        android:layout_marginBottom="272dp"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <SeekBar
+            android:id = "@+id/temp_seekbar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="320px"
+            android:layout_height="40px"
+            android:max="3"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:progress="3"
+            android:progressDrawable="@drawable/custom_seekbar"
+            android:splitTrack="false"
+            android:thumbTint="@android:color/transparent" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
